@@ -19,13 +19,12 @@ public class Person {
     //                This method just prints out a message saying something a 
     //                normal person might say
     public void doSomething() {
-        System.out.println("I'm watching Netflix");
+        System.out.println(this.firstName + " is watching Netflix");
     }
 
-    // toString(): retuns a String representation of a Person (their full name)
+    // toString(): returns a String representation of a Person (their full name)
     public String toString() {
-        String str = firstName + " " + lastName;
-        return str;
+        return firstName + " " + lastName;
     }
 
     // getters: return the values of the instance variables
